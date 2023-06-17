@@ -46,7 +46,7 @@ export default {
             this.erros.senha = this.senha == "" ? "Campo Inválido" : ""
 
             if (this.erros.email != "" && this.erros.senha != "") {
-
+this.$route.push('home')
             }
         }
     }

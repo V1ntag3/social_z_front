@@ -21,7 +21,6 @@ import LoginView from './views/LoginView.vue'
   padding: 0px;
   margin: 0px;
   font-family: 'Poppins-Regular';
-  transition: 0.5s;
 }
 
 html {

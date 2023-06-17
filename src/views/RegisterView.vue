@@ -47,7 +47,7 @@ export default {
             this.erros.confirmSenha = this.confirmSenha != this.senha ? "Senhas não coencidem" : ""
 
             if (this.erros.email != "" && this.erros.senha != "" && this.erros.confirmSenha) {
-
+                this.$router.push('/inicial')
             }
         }
     }
